@@ -13,6 +13,10 @@
 (global-set-key "\C-x\C-m" 'execute-extended-command)
 (global-set-key "\C-c\C-m" 'execute-extended-command)
 
+;;Quiet startup
+(setq inhibit-startup-message t)
+(setq initial-scratch-message nil
+
 ;; Themes
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized/")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/monokai/")

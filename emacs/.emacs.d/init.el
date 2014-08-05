@@ -7,6 +7,9 @@
 (require 'linum)
 (global-linum-mode 1)
 
+(require 'ido)
+(ido-mode t)
+
 ;;auto reload
 (global-auto-revert-mode t)
 

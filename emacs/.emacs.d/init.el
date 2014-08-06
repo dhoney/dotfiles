@@ -18,7 +18,7 @@
 
 ;;Quiet startup
 (setq inhibit-startup-message t)
-(setq initial-scratch-message nil
+(setq initial-scratch-message nil)
 
 ;; Themes
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized/")

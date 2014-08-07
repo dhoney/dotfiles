@@ -10,11 +10,21 @@
 (require 'ido)
 (ido-mode t)
 
+(require 'smooth-scrolling)
+
 ;;auto reload
 (global-auto-revert-mode t)
 
 (global-set-key "\C-x\C-m" 'execute-extended-command)
 (global-set-key "\C-c\C-m" 'execute-extended-command)
+
+;; Smooth scrolling
+(setq mouse-wheel-scroll-amount '(2 ((shift) .1)))
+(setq mouse-wheel-progressive-speed nil)
+(setq mouse-wheel-follow-mouse 't)
+
+;; Cursor bar
+(setq-default cursor-type 'bar
 
 ;;Quiet startup
 (setq inhibit-startup-message t)

@@ -24,7 +24,7 @@
 (setq mouse-wheel-follow-mouse 't)
 
 ;; Cursor bar
-(setq-default cursor-type 'bar
+(setq-default cursor-type 'bar)
 
 ;;Quiet startup
 (setq inhibit-startup-message t)

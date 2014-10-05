@@ -7,10 +7,14 @@
 (require 'linum)
 (global-linum-mode 1)
 
+(require 'linum-off)
+
 (require 'ido)
 (ido-mode t)
 
 (require 'smooth-scrolling)
+
+(speedbar 1)
 
 ;; Package setup for jedi
  (add-to-list 'load-path "~/.emacs.d") ; to find Emacs 23 package.el

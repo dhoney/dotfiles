@@ -16,6 +16,8 @@
 
 (speedbar 1)
 
+(require 'go-mode-load)
+
 ;; Package setup for jedi
  (add-to-list 'load-path "~/.emacs.d") ; to find Emacs 23 package.el
  (require 'package)
